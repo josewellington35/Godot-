@@ -1,0 +1,639 @@
+[gd_scene load_steps=429 format=2]
+
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_0.png" type="Texture" id=1]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_12.png" type="Texture" id=2]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_4.png" type="Texture" id=3]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_11.png" type="Texture" id=4]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_1.png" type="Texture" id=5]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_11.png" type="Texture" id=6]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_14.png" type="Texture" id=7]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_19.png" type="Texture" id=8]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_0.png" type="Texture" id=9]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_17.png" type="Texture" id=10]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_6.png" type="Texture" id=11]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_1.png" type="Texture" id=12]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_8.png" type="Texture" id=13]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_0.png" type="Texture" id=14]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_2.png" type="Texture" id=15]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_4.png" type="Texture" id=16]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_5.png" type="Texture" id=17]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_6.png" type="Texture" id=18]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_3.png" type="Texture" id=19]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_18.png" type="Texture" id=20]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_9.png" type="Texture" id=21]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_2.png" type="Texture" id=22]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_7.png" type="Texture" id=23]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_8.png" type="Texture" id=24]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_14.png" type="Texture" id=25]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_12.png" type="Texture" id=26]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_13.png" type="Texture" id=27]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_7.png" type="Texture" id=28]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_2.png" type="Texture" id=29]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_13.png" type="Texture" id=30]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_8.png" type="Texture" id=31]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_3.png" type="Texture" id=32]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_13.png" type="Texture" id=33]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_14.png" type="Texture" id=34]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_0.png" type="Texture" id=35]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_5.png" type="Texture" id=36]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_1.png" type="Texture" id=37]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_6.png" type="Texture" id=38]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_1.png" type="Texture" id=39]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_10.png" type="Texture" id=40]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_9.png" type="Texture" id=41]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_3.png" type="Texture" id=42]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_10.png" type="Texture" id=43]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_15.png" type="Texture" id=44]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_16.png" type="Texture" id=45]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_15.png" type="Texture" id=46]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_16.png" type="Texture" id=47]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_4.png" type="Texture" id=48]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_17.png" type="Texture" id=49]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_7.png" type="Texture" id=50]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_12.png" type="Texture" id=51]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_18.png" type="Texture" id=52]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_9.png" type="Texture" id=53]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_11.png" type="Texture" id=54]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_10.png" type="Texture" id=55]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/move/survivor-move_knife_19.png" type="Texture" id=56]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/knife/idle/survivor-idle_knife_5.png" type="Texture" id=57]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/idle/survivor-idle_0.png" type="Texture" id=58]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_3.png" type="Texture" id=59]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_4.png" type="Texture" id=60]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_9.png" type="Texture" id=61]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_18.png" type="Texture" id=62]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_7.png" type="Texture" id=63]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_3.png" type="Texture" id=64]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_5.png" type="Texture" id=65]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_2.png" type="Texture" id=66]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_2.png" type="Texture" id=67]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_5.png" type="Texture" id=68]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_9.png" type="Texture" id=69]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_4.png" type="Texture" id=70]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_13.png" type="Texture" id=71]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_7.png" type="Texture" id=72]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_8.png" type="Texture" id=73]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_15.png" type="Texture" id=74]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_15.png" type="Texture" id=75]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_9.png" type="Texture" id=76]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_13.png" type="Texture" id=77]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_6.png" type="Texture" id=78]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_16.png" type="Texture" id=79]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_12.png" type="Texture" id=80]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_3.png" type="Texture" id=81]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_14.png" type="Texture" id=82]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_6.png" type="Texture" id=83]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_11.png" type="Texture" id=84]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_11.png" type="Texture" id=85]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_2.png" type="Texture" id=86]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_16.png" type="Texture" id=87]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_18.png" type="Texture" id=88]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_16.png" type="Texture" id=89]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_12.png" type="Texture" id=90]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_1.png" type="Texture" id=91]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_8.png" type="Texture" id=92]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_12.png" type="Texture" id=93]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_4.png" type="Texture" id=94]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_3.png" type="Texture" id=95]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_8.png" type="Texture" id=96]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_1.png" type="Texture" id=97]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_13.png" type="Texture" id=98]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_19.png" type="Texture" id=99]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_0.png" type="Texture" id=100]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_4.png" type="Texture" id=101]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_7.png" type="Texture" id=102]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_15.png" type="Texture" id=103]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_0.png" type="Texture" id=104]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_5.png" type="Texture" id=105]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_14.png" type="Texture" id=106]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_19.png" type="Texture" id=107]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_18.png" type="Texture" id=108]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_10.png" type="Texture" id=109]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_17.png" type="Texture" id=110]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_6.png" type="Texture" id=111]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_19.png" type="Texture" id=112]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_1.png" type="Texture" id=113]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_5.png" type="Texture" id=114]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_10.png" type="Texture" id=115]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_17.png" type="Texture" id=116]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_10.png" type="Texture" id=117]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_0.png" type="Texture" id=118]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_11.png" type="Texture" id=119]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_14.png" type="Texture" id=120]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_2.png" type="Texture" id=121]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/run/survivor-run_17.png" type="Texture" id=122]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_9.png" type="Texture" id=123]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_10.png" type="Texture" id=124]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_7.png" type="Texture" id=125]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_6.png" type="Texture" id=126]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_11.png" type="Texture" id=127]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_8.png" type="Texture" id=128]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_13.png" type="Texture" id=129]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_17.png" type="Texture" id=130]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_16.png" type="Texture" id=131]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_12.png" type="Texture" id=132]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_14.png" type="Texture" id=133]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_18.png" type="Texture" id=134]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_19.png" type="Texture" id=135]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/feet/walk/survivor-walk_15.png" type="Texture" id=136]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_6.png" type="Texture" id=137]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_14.png" type="Texture" id=138]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_15.png" type="Texture" id=139]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_5.png" type="Texture" id=140]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_13.png" type="Texture" id=141]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_11.png" type="Texture" id=142]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_5.png" type="Texture" id=143]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_13.png" type="Texture" id=144]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_8.png" type="Texture" id=145]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_12.png" type="Texture" id=146]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_0.png" type="Texture" id=147]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_7.png" type="Texture" id=148]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_0.png" type="Texture" id=149]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_1.png" type="Texture" id=150]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_11.png" type="Texture" id=151]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_5.png" type="Texture" id=152]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_6.png" type="Texture" id=153]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_7.png" type="Texture" id=154]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_18.png" type="Texture" id=155]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_14.png" type="Texture" id=156]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_4.png" type="Texture" id=157]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_12.png" type="Texture" id=158]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_18.png" type="Texture" id=159]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_19.png" type="Texture" id=160]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_4.png" type="Texture" id=161]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_3.png" type="Texture" id=162]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_4.png" type="Texture" id=163]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_2.png" type="Texture" id=164]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_3.png" type="Texture" id=165]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_12.png" type="Texture" id=166]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_16.png" type="Texture" id=167]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_6.png" type="Texture" id=168]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_13.png" type="Texture" id=169]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_15.png" type="Texture" id=170]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_9.png" type="Texture" id=171]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_16.png" type="Texture" id=172]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_17.png" type="Texture" id=173]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_6.png" type="Texture" id=174]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_9.png" type="Texture" id=175]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_3.png" type="Texture" id=176]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_2.png" type="Texture" id=177]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_17.png" type="Texture" id=178]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_2.png" type="Texture" id=179]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_14.png" type="Texture" id=180]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_19.png" type="Texture" id=181]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_10.png" type="Texture" id=182]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_8.png" type="Texture" id=183]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_9.png" type="Texture" id=184]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_8.png" type="Texture" id=185]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_10.png" type="Texture" id=186]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_1.png" type="Texture" id=187]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_1.png" type="Texture" id=188]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/move/survivor-move_handgun_10.png" type="Texture" id=189]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_11.png" type="Texture" id=190]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_7.png" type="Texture" id=191]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_0.png" type="Texture" id=192]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_5.png" type="Texture" id=193]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_1.png" type="Texture" id=194]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_0.png" type="Texture" id=195]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_2.png" type="Texture" id=196]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_3.png" type="Texture" id=197]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_4.png" type="Texture" id=198]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_0.png" type="Texture" id=199]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_10.png" type="Texture" id=200]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_8.png" type="Texture" id=201]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_2.png" type="Texture" id=202]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_12.png" type="Texture" id=203]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_13.png" type="Texture" id=204]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_1.png" type="Texture" id=205]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_11.png" type="Texture" id=206]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_14.png" type="Texture" id=207]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_7.png" type="Texture" id=208]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_9.png" type="Texture" id=209]
+[ext_resource path="res://script_personagem.gd" type="Script" id=210]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_3.png" type="Texture" id=211]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_11.png" type="Texture" id=212]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_11.png" type="Texture" id=213]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_18.png" type="Texture" id=214]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_0.png" type="Texture" id=215]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_9.png" type="Texture" id=216]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_18.png" type="Texture" id=217]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_4.png" type="Texture" id=218]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_14.png" type="Texture" id=219]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_2.png" type="Texture" id=220]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_14.png" type="Texture" id=221]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_6.png" type="Texture" id=222]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_6.png" type="Texture" id=223]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_12.png" type="Texture" id=224]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_16.png" type="Texture" id=225]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_10.png" type="Texture" id=226]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_5.png" type="Texture" id=227]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_7.png" type="Texture" id=228]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_10.png" type="Texture" id=229]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_7.png" type="Texture" id=230]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_15.png" type="Texture" id=231]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_1.png" type="Texture" id=232]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_5.png" type="Texture" id=233]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_10.png" type="Texture" id=234]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_5.png" type="Texture" id=235]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_8.png" type="Texture" id=236]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_9.png" type="Texture" id=237]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_5.png" type="Texture" id=238]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_12.png" type="Texture" id=239]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_1.png" type="Texture" id=240]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_19.png" type="Texture" id=241]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_8.png" type="Texture" id=242]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_8.png" type="Texture" id=243]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_16.png" type="Texture" id=244]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_9.png" type="Texture" id=245]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_7.png" type="Texture" id=246]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_1.png" type="Texture" id=247]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_4.png" type="Texture" id=248]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_15.png" type="Texture" id=249]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_13.png" type="Texture" id=250]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_10.png" type="Texture" id=251]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_12.png" type="Texture" id=252]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_8.png" type="Texture" id=253]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_2.png" type="Texture" id=254]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_13.png" type="Texture" id=255]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_9.png" type="Texture" id=256]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_7.png" type="Texture" id=257]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_12.png" type="Texture" id=258]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_0.png" type="Texture" id=259]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_13.png" type="Texture" id=260]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_14.png" type="Texture" id=261]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_0.png" type="Texture" id=262]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_6.png" type="Texture" id=263]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_4.png" type="Texture" id=264]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_6.png" type="Texture" id=265]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_17.png" type="Texture" id=266]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_2.png" type="Texture" id=267]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_11.png" type="Texture" id=268]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_3.png" type="Texture" id=269]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_4.png" type="Texture" id=270]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_17.png" type="Texture" id=271]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_19.png" type="Texture" id=272]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_11.png" type="Texture" id=273]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_3.png" type="Texture" id=274]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_9.png" type="Texture" id=275]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_10.png" type="Texture" id=276]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_5.png" type="Texture" id=277]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_6.png" type="Texture" id=278]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_16.png" type="Texture" id=279]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_11.png" type="Texture" id=280]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_6.png" type="Texture" id=281]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_8.png" type="Texture" id=282]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_4.png" type="Texture" id=283]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_11.png" type="Texture" id=284]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_4.png" type="Texture" id=285]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_13.png" type="Texture" id=286]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_1.png" type="Texture" id=287]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_3.png" type="Texture" id=288]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_12.png" type="Texture" id=289]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_17.png" type="Texture" id=290]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_13.png" type="Texture" id=291]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_13.png" type="Texture" id=292]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_0.png" type="Texture" id=293]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_6.png" type="Texture" id=294]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_7.png" type="Texture" id=295]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_9.png" type="Texture" id=296]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_2.png" type="Texture" id=297]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_12.png" type="Texture" id=298]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_19.png" type="Texture" id=299]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_2.png" type="Texture" id=300]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_7.png" type="Texture" id=301]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_10.png" type="Texture" id=302]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_13.png" type="Texture" id=303]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_2.png" type="Texture" id=304]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_3.png" type="Texture" id=305]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_5.png" type="Texture" id=306]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_4.png" type="Texture" id=307]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_12.png" type="Texture" id=308]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_12.png" type="Texture" id=309]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_14.png" type="Texture" id=310]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_7.png" type="Texture" id=311]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_15.png" type="Texture" id=312]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_5.png" type="Texture" id=313]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_1.png" type="Texture" id=314]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_10.png" type="Texture" id=315]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_1.png" type="Texture" id=316]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_17.png" type="Texture" id=317]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_18.png" type="Texture" id=318]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_7.png" type="Texture" id=319]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_11.png" type="Texture" id=320]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_18.png" type="Texture" id=321]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_0.png" type="Texture" id=322]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_8.png" type="Texture" id=323]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_8.png" type="Texture" id=324]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_6.png" type="Texture" id=325]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_8.png" type="Texture" id=326]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_14.png" type="Texture" id=327]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_9.png" type="Texture" id=328]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_0.png" type="Texture" id=329]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/meleeattack/survivor-meleeattack_rifle_11.png" type="Texture" id=330]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_14.png" type="Texture" id=331]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_16.png" type="Texture" id=332]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_3.png" type="Texture" id=333]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_9.png" type="Texture" id=334]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_5.png" type="Texture" id=335]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_19.png" type="Texture" id=336]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_10.png" type="Texture" id=337]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/move/survivor-move_rifle_15.png" type="Texture" id=338]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/shoot/survivor-shoot_rifle_2.png" type="Texture" id=339]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_1.png" type="Texture" id=340]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_14.png" type="Texture" id=341]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_2.png" type="Texture" id=342]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_19.png" type="Texture" id=343]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_18.png" type="Texture" id=344]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_16.png" type="Texture" id=345]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_0.png" type="Texture" id=346]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_15.png" type="Texture" id=347]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_3.png" type="Texture" id=348]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/shoot/survivor-shoot_rifle_0.png" type="Texture" id=349]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_17.png" type="Texture" id=350]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/shoot/survivor-shoot_rifle_1.png" type="Texture" id=351]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_14.png" type="Texture" id=352]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_13.png" type="Texture" id=353]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_16.png" type="Texture" id=354]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_17.png" type="Texture" id=355]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/shoot/survivor-shoot_shotgun_2.png" type="Texture" id=356]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/shoot/survivor-shoot_shotgun_1.png" type="Texture" id=357]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_19.png" type="Texture" id=358]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_15.png" type="Texture" id=359]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/shoot/survivor-shoot_shotgun_0.png" type="Texture" id=360]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_18.png" type="Texture" id=361]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_8.png" type="Texture" id=362]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_12.png" type="Texture" id=363]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_2.png" type="Texture" id=364]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_9.png" type="Texture" id=365]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_10.png" type="Texture" id=366]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_0.png" type="Texture" id=367]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_14.png" type="Texture" id=368]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_4.png" type="Texture" id=369]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_3.png" type="Texture" id=370]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_7.png" type="Texture" id=371]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_14.png" type="Texture" id=372]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_18.png" type="Texture" id=373]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_5.png" type="Texture" id=374]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_8.png" type="Texture" id=375]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_12.png" type="Texture" id=376]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_10.png" type="Texture" id=377]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_7.png" type="Texture" id=378]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_13.png" type="Texture" id=379]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_5.png" type="Texture" id=380]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_0.png" type="Texture" id=381]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_14.png" type="Texture" id=382]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_2.png" type="Texture" id=383]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_15.png" type="Texture" id=384]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_11.png" type="Texture" id=385]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_16.png" type="Texture" id=386]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_17.png" type="Texture" id=387]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_1.png" type="Texture" id=388]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_9.png" type="Texture" id=389]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_3.png" type="Texture" id=390]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_12.png" type="Texture" id=391]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_16.png" type="Texture" id=392]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_3.png" type="Texture" id=393]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_9.png" type="Texture" id=394]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_4.png" type="Texture" id=395]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_6.png" type="Texture" id=396]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_2.png" type="Texture" id=397]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_13.png" type="Texture" id=398]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_18.png" type="Texture" id=399]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_1.png" type="Texture" id=400]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_5.png" type="Texture" id=401]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_15.png" type="Texture" id=402]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_11.png" type="Texture" id=403]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_17.png" type="Texture" id=404]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_6.png" type="Texture" id=405]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_0.png" type="Texture" id=406]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_1.png" type="Texture" id=407]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_6.png" type="Texture" id=408]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_8.png" type="Texture" id=409]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_10.png" type="Texture" id=410]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_11.png" type="Texture" id=411]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_7.png" type="Texture" id=412]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_19.png" type="Texture" id=413]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_4.png" type="Texture" id=414]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_13.png" type="Texture" id=415]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/flashlight/move/survivor-move_flashlight_19.png" type="Texture" id=416]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_0.png" type="Texture" id=417]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_2.png" type="Texture" id=418]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_1.png" type="Texture" id=419]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_3.png" type="Texture" id=420]
+[ext_resource path="res://imagens/Personagem/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_4.png" type="Texture" id=421]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 58 ) ],
+"loop": true,
+"name": "idle",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 1 ), ExtResource( 5 ), ExtResource( 66 ), ExtResource( 95 ), ExtResource( 70 ), ExtResource( 105 ), ExtResource( 78 ), ExtResource( 63 ), ExtResource( 96 ), ExtResource( 61 ), ExtResource( 109 ), ExtResource( 85 ), ExtResource( 93 ), ExtResource( 71 ), ExtResource( 106 ), ExtResource( 75 ), ExtResource( 79 ), ExtResource( 122 ), ExtResource( 62 ), ExtResource( 107 ) ],
+"loop": true,
+"name": "run",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 104 ), ExtResource( 113 ), ExtResource( 67 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 68 ), ExtResource( 126 ), ExtResource( 125 ), ExtResource( 128 ), ExtResource( 123 ), ExtResource( 124 ), ExtResource( 127 ), ExtResource( 132 ), ExtResource( 129 ), ExtResource( 133 ), ExtResource( 136 ), ExtResource( 131 ), ExtResource( 130 ), ExtResource( 134 ), ExtResource( 135 ) ],
+"loop": true,
+"name": "walk",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 100 ), ExtResource( 91 ), ExtResource( 121 ), ExtResource( 81 ), ExtResource( 101 ), ExtResource( 114 ), ExtResource( 111 ), ExtResource( 102 ), ExtResource( 73 ), ExtResource( 76 ), ExtResource( 117 ), ExtResource( 119 ), ExtResource( 90 ), ExtResource( 77 ), ExtResource( 82 ), ExtResource( 103 ), ExtResource( 87 ), ExtResource( 110 ), ExtResource( 88 ), ExtResource( 112 ) ],
+"loop": true,
+"name": "strafe_right",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 118 ), ExtResource( 97 ), ExtResource( 86 ), ExtResource( 64 ), ExtResource( 94 ), ExtResource( 65 ), ExtResource( 83 ), ExtResource( 72 ), ExtResource( 92 ), ExtResource( 69 ), ExtResource( 115 ), ExtResource( 84 ), ExtResource( 80 ), ExtResource( 98 ), ExtResource( 120 ), ExtResource( 74 ), ExtResource( 89 ), ExtResource( 116 ), ExtResource( 108 ), ExtResource( 99 ) ],
+"loop": true,
+"name": "strafe_left",
+"speed": 25.0
+} ]
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 406 ), ExtResource( 388 ), ExtResource( 364 ), ExtResource( 393 ), ExtResource( 414 ), ExtResource( 401 ), ExtResource( 408 ), ExtResource( 412 ), ExtResource( 362 ), ExtResource( 389 ), ExtResource( 377 ), ExtResource( 403 ), ExtResource( 391 ), ExtResource( 379 ), ExtResource( 368 ), ExtResource( 402 ), ExtResource( 392 ), ExtResource( 404 ), ExtResource( 373 ), ExtResource( 413 ) ],
+"loop": true,
+"name": "idle",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 367 ), ExtResource( 407 ), ExtResource( 397 ), ExtResource( 390 ), ExtResource( 369 ), ExtResource( 380 ), ExtResource( 405 ), ExtResource( 371 ), ExtResource( 409 ), ExtResource( 394 ), ExtResource( 410 ), ExtResource( 411 ), ExtResource( 363 ), ExtResource( 415 ), ExtResource( 372 ) ],
+"loop": true,
+"name": "meleeattack",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 381 ), ExtResource( 400 ), ExtResource( 383 ), ExtResource( 370 ), ExtResource( 395 ), ExtResource( 374 ), ExtResource( 396 ), ExtResource( 378 ), ExtResource( 375 ), ExtResource( 365 ), ExtResource( 366 ), ExtResource( 385 ), ExtResource( 376 ), ExtResource( 398 ), ExtResource( 382 ), ExtResource( 384 ), ExtResource( 386 ), ExtResource( 387 ), ExtResource( 399 ), ExtResource( 416 ) ],
+"loop": true,
+"name": "move",
+"speed": 25.0
+} ]
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 195 ), ExtResource( 194 ), ExtResource( 196 ), ExtResource( 197 ), ExtResource( 198 ), ExtResource( 193 ), ExtResource( 137 ), ExtResource( 208 ), ExtResource( 201 ), ExtResource( 209 ), ExtResource( 200 ), ExtResource( 206 ), ExtResource( 203 ), ExtResource( 204 ), ExtResource( 207 ) ],
+"loop": true,
+"name": "reload",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 192 ), ExtResource( 187 ), ExtResource( 164 ), ExtResource( 165 ), ExtResource( 161 ), ExtResource( 140 ), ExtResource( 174 ), ExtResource( 191 ), ExtResource( 185 ), ExtResource( 175 ), ExtResource( 186 ), ExtResource( 190 ), ExtResource( 166 ), ExtResource( 144 ), ExtResource( 138 ), ExtResource( 139 ), ExtResource( 167 ), ExtResource( 178 ), ExtResource( 155 ), ExtResource( 181 ) ],
+"loop": true,
+"name": "idle",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 199 ), ExtResource( 205 ), ExtResource( 202 ) ],
+"loop": true,
+"name": "shoot",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 147 ), ExtResource( 150 ), ExtResource( 179 ), ExtResource( 176 ), ExtResource( 157 ), ExtResource( 143 ), ExtResource( 168 ), ExtResource( 148 ), ExtResource( 145 ), ExtResource( 184 ), ExtResource( 182 ), ExtResource( 151 ), ExtResource( 146 ), ExtResource( 141 ), ExtResource( 180 ) ],
+"loop": true,
+"name": "meleeattack",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 149 ), ExtResource( 188 ), ExtResource( 177 ), ExtResource( 162 ), ExtResource( 163 ), ExtResource( 152 ), ExtResource( 153 ), ExtResource( 154 ), ExtResource( 183 ), ExtResource( 171 ), ExtResource( 189 ), ExtResource( 142 ), ExtResource( 158 ), ExtResource( 169 ), ExtResource( 156 ), ExtResource( 170 ), ExtResource( 172 ), ExtResource( 173 ), ExtResource( 159 ), ExtResource( 160 ) ],
+"loop": true,
+"name": "move",
+"speed": 25.0
+} ]
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 35 ), ExtResource( 12 ), ExtResource( 29 ), ExtResource( 42 ), ExtResource( 3 ), ExtResource( 57 ), ExtResource( 38 ), ExtResource( 50 ), ExtResource( 24 ), ExtResource( 21 ), ExtResource( 40 ), ExtResource( 4 ), ExtResource( 26 ), ExtResource( 30 ), ExtResource( 7 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 10 ), ExtResource( 20 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "idle",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 9 ), ExtResource( 39 ), ExtResource( 22 ), ExtResource( 19 ), ExtResource( 48 ), ExtResource( 36 ), ExtResource( 11 ), ExtResource( 23 ), ExtResource( 13 ), ExtResource( 41 ), ExtResource( 55 ), ExtResource( 6 ), ExtResource( 51 ), ExtResource( 27 ), ExtResource( 25 ) ],
+"loop": true,
+"name": "meleeattack",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 37 ), ExtResource( 15 ), ExtResource( 32 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 28 ), ExtResource( 31 ), ExtResource( 53 ), ExtResource( 43 ), ExtResource( 54 ), ExtResource( 2 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 49 ), ExtResource( 52 ), ExtResource( 56 ) ],
+"loop": true,
+"name": "move",
+"speed": 25.0
+} ]
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ ExtResource( 322 ), ExtResource( 287 ), ExtResource( 304 ), ExtResource( 288 ), ExtResource( 283 ), ExtResource( 306 ), ExtResource( 281 ), ExtResource( 311 ), ExtResource( 323 ), ExtResource( 334 ), ExtResource( 337 ), ExtResource( 284 ), ExtResource( 289 ), ExtResource( 292 ), ExtResource( 341 ), ExtResource( 347 ), ExtResource( 345 ), ExtResource( 350 ), ExtResource( 344 ), ExtResource( 343 ) ],
+"loop": true,
+"name": "reload",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 417 ), ExtResource( 419 ), ExtResource( 418 ), ExtResource( 420 ), ExtResource( 421 ), ExtResource( 335 ), ExtResource( 294 ), ExtResource( 319 ), ExtResource( 324 ), ExtResource( 275 ), ExtResource( 276 ), ExtResource( 320 ), ExtResource( 298 ), ExtResource( 291 ), ExtResource( 331 ), ExtResource( 312 ), ExtResource( 332 ), ExtResource( 290 ), ExtResource( 318 ), ExtResource( 299 ) ],
+"loop": true,
+"name": "idle",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 349 ), ExtResource( 351 ), ExtResource( 339 ) ],
+"loop": true,
+"name": "shoot",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 329 ), ExtResource( 314 ), ExtResource( 300 ), ExtResource( 305 ), ExtResource( 285 ), ExtResource( 313 ), ExtResource( 325 ), ExtResource( 295 ), ExtResource( 326 ), ExtResource( 296 ), ExtResource( 315 ), ExtResource( 330 ), ExtResource( 308 ), ExtResource( 286 ), ExtResource( 310 ) ],
+"loop": true,
+"name": "meleeattack",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 293 ), ExtResource( 316 ), ExtResource( 297 ), ExtResource( 333 ), ExtResource( 307 ), ExtResource( 277 ), ExtResource( 278 ), ExtResource( 301 ), ExtResource( 282 ), ExtResource( 328 ), ExtResource( 302 ), ExtResource( 280 ), ExtResource( 309 ), ExtResource( 303 ), ExtResource( 327 ), ExtResource( 338 ), ExtResource( 279 ), ExtResource( 317 ), ExtResource( 321 ), ExtResource( 336 ) ],
+"loop": true,
+"name": "move",
+"speed": 25.0
+} ]
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ ExtResource( 215 ), ExtResource( 247 ), ExtResource( 220 ), ExtResource( 269 ), ExtResource( 270 ), ExtResource( 233 ), ExtResource( 223 ), ExtResource( 228 ), ExtResource( 243 ), ExtResource( 245 ), ExtResource( 251 ), ExtResource( 273 ), ExtResource( 252 ), ExtResource( 353 ), ExtResource( 352 ), ExtResource( 359 ), ExtResource( 354 ), ExtResource( 355 ), ExtResource( 361 ), ExtResource( 358 ) ],
+"loop": true,
+"name": "reload",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 346 ), ExtResource( 340 ), ExtResource( 342 ), ExtResource( 348 ), ExtResource( 248 ), ExtResource( 227 ), ExtResource( 222 ), ExtResource( 246 ), ExtResource( 253 ), ExtResource( 216 ), ExtResource( 229 ), ExtResource( 213 ), ExtResource( 224 ), ExtResource( 260 ), ExtResource( 221 ), ExtResource( 231 ), ExtResource( 225 ), ExtResource( 271 ), ExtResource( 217 ), ExtResource( 241 ) ],
+"loop": true,
+"name": "idle",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 360 ), ExtResource( 357 ), ExtResource( 356 ) ],
+"loop": true,
+"name": "shoot",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 262 ), ExtResource( 240 ), ExtResource( 267 ), ExtResource( 274 ), ExtResource( 218 ), ExtResource( 238 ), ExtResource( 263 ), ExtResource( 230 ), ExtResource( 236 ), ExtResource( 256 ), ExtResource( 234 ), ExtResource( 268 ), ExtResource( 258 ), ExtResource( 250 ), ExtResource( 219 ) ],
+"loop": true,
+"name": "meleeattack",
+"speed": 25.0
+}, {
+"frames": [ ExtResource( 259 ), ExtResource( 232 ), ExtResource( 254 ), ExtResource( 211 ), ExtResource( 264 ), ExtResource( 235 ), ExtResource( 265 ), ExtResource( 257 ), ExtResource( 242 ), ExtResource( 237 ), ExtResource( 226 ), ExtResource( 212 ), ExtResource( 239 ), ExtResource( 255 ), ExtResource( 261 ), ExtResource( 249 ), ExtResource( 244 ), ExtResource( 266 ), ExtResource( 214 ), ExtResource( 272 ) ],
+"loop": true,
+"name": "move",
+"speed": 25.0
+} ]
+
+[sub_resource type="CircleShape2D" id=7]
+radius = 97.318
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( 478.77, 216.706 )
+scale = Vector2( 0.5, 0.5 )
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+script = ExtResource( 210 )
+
+[node name="feet" type="AnimatedSprite" parent="KinematicBody2D"]
+position = Vector2( -69.5899, -100.454 )
+frames = SubResource( 1 )
+animation = "idle"
+playing = true
+centered = false
+
+[node name="flashlight" type="AnimatedSprite" parent="KinematicBody2D"]
+visible = false
+position = Vector2( -85.5114, -117.144 )
+frames = SubResource( 2 )
+animation = "move"
+frame = 1
+playing = true
+centered = false
+
+[node name="handgun" type="AnimatedSprite" parent="KinematicBody2D"]
+position = Vector2( -103.407, -157.453 )
+frames = SubResource( 3 )
+animation = "move"
+frame = 3
+playing = true
+centered = false
+
+[node name="knife" type="AnimatedSprite" parent="KinematicBody2D"]
+visible = false
+position = Vector2( -110.802, -113.089 )
+frames = SubResource( 4 )
+animation = "move"
+frame = 14
+playing = true
+centered = false
+
+[node name="rifle" type="AnimatedSprite" parent="KinematicBody2D"]
+visible = false
+position = Vector2( -111.124, -115.614 )
+frames = SubResource( 5 )
+animation = "move"
+frame = 13
+playing = true
+centered = false
+
+[node name="shotgun" type="AnimatedSprite" parent="KinematicBody2D"]
+visible = false
+position = Vector2( -111.124, -130.41 )
+frames = SubResource( 6 )
+animation = "idle"
+frame = 8
+playing = true
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+position = Vector2( 5.04529, -26.9086 )
+shape = SubResource( 7 )
+
+[node name="Position2D" type="Position2D" parent="KinematicBody2D"]
+position = Vector2( 158.234, 4.28202 )
